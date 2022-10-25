@@ -5,6 +5,7 @@ public class Employee {
     float salary,workHours,totalsalary;
     int HireYear;
     double tax,bonus,temp;
+
     Employee(String name,float salary,float workHours,int HireYear){
         this.name = name ;
         this.salary = salary;
