@@ -38,7 +38,7 @@ public class Employee {
     }
     public double raiseSalary() throws Exception{
         if (2021 - HireYear <10 && 2021 - HireYear >=0){
-              temp = salary * 0.05;
+            temp = salary * 0.05;
             totalsalary = salary + (float) (temp + bonus - tax);
             return totalsalary;
         }
